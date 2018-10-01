@@ -14,7 +14,7 @@ Please see *Final Report* and *Final Presentation* for details
 Run Algorithm.java, preferably with an IDE.
 <br><br>
 The files that this program uses are hard-coded into Algorithm.java
-<br>
+<br><br>
 <ul>
  <li> for train set check line 42</li>
  <li> for test set check line	69</li>
