@@ -12,7 +12,7 @@ Please see *Final Report* and *Final Presentation* for details
 </ol>
 <br>
 Run Algorithm.java, preferably with an IDE.
-<br>
+<br><br>
 The files that this program uses are hard-coded into Algorithm.java
 <br>
 <ul>
