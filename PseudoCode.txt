@@ -1,0 +1,27 @@
+______________________________
+Pseudo Code for ID3
+where:
+	E = training records
+	F = attribute set
+______________________________
+
+	TreeGrowth(E,F)
+	  if stopping_cond(E,F) = true then
+	  
+	    lead = createNode();
+	    leaf.label = Classify(E);
+	    return leaf;
+	    
+	  else 
+	  
+	    root createNode();
+	    root.test_cond = find_best_split(E,F);
+	    let V = {v|v is a possible outcome of root.test_cond};
+	    for each v that is an element of V do
+	      E(v) = { (e | root.test_cond(e) = v) and (e that is an element of E)}
+	      child = TreeGrowth(E(v), F);
+	      add child as descendent of root and label the edge (root -> child) as v;
+	    end for;
+	  end if;
+	  
+	  return root;

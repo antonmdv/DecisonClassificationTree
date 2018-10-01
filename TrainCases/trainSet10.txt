@@ -1,0 +1,11 @@
+Tid HomeOwner MaritalStatus AnnualIncome DefaultedBorrower 
+1 true Divorced 180 false
+2 true Divorced 174 false
+3 false Single 153 false
+4 false Married 110 true
+5 false Divorced 187 true
+6 false Married 17 false
+7 false Single 64 true
+8 false Single 1 true
+9 true Married 39 false
+10 false Single 107 false
